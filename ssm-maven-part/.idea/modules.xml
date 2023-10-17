@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micro-shop-04/common-service/common-service.iml" filepath="$PROJECT_DIR$/micro-shop-04/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-javaee-project-02/maven-javaee-project-02.iml" filepath="$PROJECT_DIR$/maven-javaee-project-02/maven-javaee-project-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-javase-project-01/maven-javase-project-01.iml" filepath="$PROJECT_DIR$/maven-javase-project-01/maven-javase-project-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-pom-parent-03/maven-pom-parent-03.iml" filepath="$PROJECT_DIR$/maven-pom-parent-03/maven-pom-parent-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-shop-04/micro-shop-04.iml" filepath="$PROJECT_DIR$/micro-shop-04/micro-shop-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-shop-04/order-service/order-service.iml" filepath="$PROJECT_DIR$/micro-shop-04/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-pom-parent-03/shop-user/shop-user.iml" filepath="$PROJECT_DIR$/maven-pom-parent-03/shop-user/shop-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-shop-04/user-service/user-service.iml" filepath="$PROJECT_DIR$/micro-shop-04/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

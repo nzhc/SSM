@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- gavp属性-->
+    <!-- 不会改变-->
+    <groupId>com.atguigu</groupId>
+    <artifactId>maven-javaee-project-02</artifactId>
+    <!-- 构建过程 - 部署 - 修改 -->
+    <version>1.0.1</version>
+    <!-- maven工程的打包方式  java jar [默认值]  web war  不打包 pom -->
+    <packaging>jar</packaging>
+
+    <!-- 声明版本号 -->
+    <properties>
+        <!-- 声明一个变量!声明完变量以后,在其他的位置可以引用 ${jackson.version}
+             注意: 声明的标签建议两层以上命名!  version  1.15.2  推荐: 技术名.version-->
+        <jackson.version>2.15.2</jackson.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- 第三方依赖信息声明
+           dependencies  - 项目依赖信息的集合
+              dependency  -  每个依赖项
+                 [gav]       -  依赖的信息,就是其他maven的工程 [jar]
+          第三方依赖信息怎么知道?  jackson-core
+             1. maven提供的查询官网  https://mvnrepository.com
+             2. maven插件 maven-search
+                   安装插件
+                       tools
+                           maven-search  输入信息即可
+
+           扩展:
+              1. 提取版本号,统一管理。在properties中实现 <jackson.version>2.15.2</jackson.version>
+              2. 可选属性scope
+                   scope 引入依赖的作用域
+                        生效范围
+                            - compile ：main目录 test目录  打包打包     [默认设置用compile]
+                            - provided：main目录 test目录  如：Servlet
+                            - runtime： 打包运行           如：MySQL
+                            - test:     test目录           如：junit
+                   总结: 他是一种锦上添花的手段,如果你掌握不好,你就默认值,全部生效,你就一定不会错!!
+    -->
+
+    <dependencies>
+        <!--
+           依赖传递: 导入依赖,会自动导入依赖的依赖! (compile dependenices).简化依赖的导入 确保依赖的版本无冲突
+           依赖冲突: 发现已经存在依赖(重复依赖) 会终止依赖传递! 避免 循环依赖+重复依赖 的问题! 循环如：A依赖B，B依赖C，C依赖A
+                    依赖冲突发生场景: 重复依赖!!    如：A 依赖于 B(1.0) , C 依赖于 B(2.0)
+           依赖冲突的解决原则:
+              第一原则: 谁短谁优先! 引用的路径长度
+                  A 依赖于 C 依赖于 B(1.0)
+                  F 依赖于 B(2.0)
+                  最终引入：A C F B(2.0)
+              第二原则: 谁上谁优先! dependencies声明的先后顺序
+                  A 依赖于 B(1.0)
+                  F 依赖于 B(2.0)
+                  最终引入：A - F - B(1.0)
+        -->
+        <dependency>
+            <!--定位信息 gav 三个属性是必须的!!!-->
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- 导入其他版本的maven插件 -->
+    <build>
+        <!-- jdk17 和 war包版本插件不匹配 -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>

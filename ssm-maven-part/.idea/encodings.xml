@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/maven-javaee-project-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-javaee-project-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-pom-parent-03/shop-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-pom-parent-03/shop-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop-04/common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop-04/common-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop-04/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop-04/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop-04/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop-04/user-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

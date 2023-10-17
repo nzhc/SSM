@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-service" />
+        <module name="order-service" />
+        <module name="user-service" />
+        <module name="shop-user" />
+        <module name="maven-javase-project-01" />
+        <module name="maven-javaee-project-02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="common-service" target="17" />
+      <module name="maven-javaee-project-02" target="17" />
+      <module name="maven-javase-project-01" target="17" />
+      <module name="maven-pom-parent-03" target="17" />
+      <module name="micro-shop-04" target="17" />
+      <module name="order-service" target="17" />
+      <module name="shop-user" target="17" />
+      <module name="user-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
