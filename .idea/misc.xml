@@ -7,7 +7,13 @@
         <option value="$PROJECT_DIR$/ssm-spring-part/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-mybatis-part/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-mybatis-part/mybatis-other-extend-07/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-springmvc-part/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ssm-spring-part/spring-ioc-xml-practice-02/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="17" project-jdk-type="JavaSDK">
