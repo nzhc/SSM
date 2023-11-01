@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/ssm-mybatis-part/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-mybatis-part/mybatis-other-extend-07/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-springmvc-part/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-integration-part/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-integration-part/ssm-integration-todolist-02/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

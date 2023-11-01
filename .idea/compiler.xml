@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-java-05" />
         <module name="mybatis-base-param-input-02" />
+        <module name="ssm-integration-todolist-02" />
         <module name="spring-ioc-java-06" />
         <module name="mybatis-base-crud-04" />
         <module name="mybatis-high-multitable-05" />
@@ -21,6 +22,7 @@
         <module name="springmvc-base-restful-03" />
         <module name="mybatis-high-dynsql-06" />
         <module name="springmvc-high-other-05" />
+        <module name="ssm-integration-01" />
         <module name="springmvc-base-input-02" />
         <module name="spring-ioc-annotation-03" />
         <module name="spring-ioc-annotation-04" />
@@ -28,10 +30,35 @@
         <module name="mybatis-base-quick-01" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mybatis-high-dynsql-06 (1)" target="17" />
-      <module name="mybatis-high-dynsql-06 (2)" target="17" />
-      <module name="spring-ioc-xml-practice-02" target="17" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis-base-crud-04" options="" />
+      <module name="mybatis-base-param-input-02" options="" />
+      <module name="mybatis-base-quick-01" options="" />
+      <module name="mybatis-base-result-output-03" options="" />
+      <module name="mybatis-high-dynsql-06" options="" />
+      <module name="mybatis-high-multitable-05" options="" />
+      <module name="mybatis-other-extend-07" options="" />
+      <module name="spring-aop-08" options="" />
+      <module name="spring-ioc-annotation-03" options="" />
+      <module name="spring-ioc-annotation-04" options="" />
+      <module name="spring-ioc-java-05" options="" />
+      <module name="spring-ioc-java-06" options="" />
+      <module name="spring-ioc-xml-01" options="" />
+      <module name="spring-test-annotation-07" options="" />
+      <module name="spring-tx-annotation-09" options="" />
+      <module name="springmvc-base-input-02" options="" />
+      <module name="springmvc-base-quick-01" options="" />
+      <module name="springmvc-base-restful-03" options="" />
+      <module name="springmvc-high-other-05" options="" />
+      <module name="ssm-integration-01" options="" />
+      <module name="ssm-integration-part" options="" />
+      <module name="ssm-integration-todolist-02" options="" />
+      <module name="ssm-mybatis-part" options="" />
+      <module name="ssm-spring-part" options="" />
+      <module name="ssm-springmvc-part" options="" />
+    </option>
   </component>
 </project>

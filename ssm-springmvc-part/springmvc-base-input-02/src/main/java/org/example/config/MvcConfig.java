@@ -12,7 +12,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 
 @EnableWebMvc   // 配置json,自动配置RequestMappingHandlerMapping和RequestMappingHandlerAdapter
 @Configuration
-@ComponentScan("org.example.jsp")
+@ComponentScan("org.example")
 public class MvcConfig implements WebMvcConfigurer {
 //    @Bean
 //    public RequestMappingHandlerMapping handlerMapping(){
