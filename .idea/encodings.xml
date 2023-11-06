@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mabatis-plus-crud-mapper-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mabatis-plus-crud-mapper-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-base-quick-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-base-quick-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-mybatisx-05/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-mybatisx-05/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-other-04/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-other-04/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-part/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-application-02/springboot-base-application-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-application-02/springboot-base-application-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-application-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-application-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-druid-04/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-druid-04/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-mybatis-05/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-mybatis-05/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-quick-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-quick-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-springmvc-03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/springboot-base-springmvc-03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-part/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm-integration-part/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm-integration-part/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm-integration-part/ssm-integration-01/src/main/java" charset="UTF-8" />

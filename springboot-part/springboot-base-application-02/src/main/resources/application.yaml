@@ -1,0 +1,23 @@
+
+#server.port = 9999
+#server.servlet.context-path=/boot
+
+# yaml/yml文件通过缩进来表示层级
+server:
+  port: 9999
+  servlet:
+    context-path: /boot
+
+ww:
+  info:
+    name: 撒旦发生的
+    age: 18
+  root:
+    username: root
+    password: 789
+
+# 对应多个值
+gfs:
+  - 1a
+  - 2b
+  - 3c

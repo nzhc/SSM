@@ -8,32 +8,49 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-java-05" />
-        <module name="mybatis-base-param-input-02" />
-        <module name="ssm-integration-todolist-02" />
         <module name="spring-ioc-java-06" />
-        <module name="mybatis-base-crud-04" />
+        <module name="mybatis-plus-other-04" />
+        <module name="springboot-base-mybatis-05" />
         <module name="mybatis-high-multitable-05" />
         <module name="springmvc-base-quick-01" />
         <module name="spring-test-annotation-07" />
-        <module name="spring-aop-08" />
-        <module name="mybatis-base-result-output-03" />
-        <module name="spring-tx-annotation-09" />
+        <module name="mybatis-plus-mybatisx-05" />
         <module name="spring-ioc-xml-01" />
         <module name="springmvc-base-restful-03" />
         <module name="mybatis-high-dynsql-06" />
+        <module name="springmvc-base-input-02" />
+        <module name="springboot-base-quick-01" />
+        <module name="springboot-base-druid-04" />
+        <module name="mybatis-base-param-input-02" />
+        <module name="ssm-integration-todolist-02" />
+        <module name="springboot-base-springmvc-03" />
+        <module name="mybatis-base-crud-04" />
+        <module name="spring-aop-08" />
+        <module name="mybatis-base-result-output-03" />
+        <module name="spring-tx-annotation-09" />
+        <module name="mabatis-plus-crud-mapper-02" />
         <module name="springmvc-high-other-05" />
         <module name="ssm-integration-01" />
-        <module name="springmvc-base-input-02" />
         <module name="spring-ioc-annotation-03" />
         <module name="spring-ioc-annotation-04" />
         <module name="mybatis-other-extend-07" />
+        <module name="springboot-base-application-02" />
         <module name="mybatis-base-quick-01" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-plus-base-quick-01" target="17" />
+      <module name="mybatis-plus-part" target="17" />
+      <module name="springboot-base-springmvc-03 (1)" target="17" />
+      <module name="springboot-base-springmvc-03 (2)" target="17" />
+      <module name="springboot-part" target="17" />
+      <module name="springboot-starter-druid-04" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mabatis-plus-crud-mapper-02" options="-parameters" />
       <module name="mybatis-base-crud-04" options="" />
       <module name="mybatis-base-param-input-02" options="" />
       <module name="mybatis-base-quick-01" options="" />
@@ -41,6 +58,10 @@
       <module name="mybatis-high-dynsql-06" options="" />
       <module name="mybatis-high-multitable-05" options="" />
       <module name="mybatis-other-extend-07" options="" />
+      <module name="mybatis-plus-base-quick-01" options="-parameters" />
+      <module name="mybatis-plus-mybatisx-05" options="-parameters" />
+      <module name="mybatis-plus-other-04" options="-parameters" />
+      <module name="mybatis-plus-part" options="" />
       <module name="spring-aop-08" options="" />
       <module name="spring-ioc-annotation-03" options="" />
       <module name="spring-ioc-annotation-04" options="" />
@@ -49,6 +70,15 @@
       <module name="spring-ioc-xml-01" options="" />
       <module name="spring-test-annotation-07" options="" />
       <module name="spring-tx-annotation-09" options="" />
+      <module name="springboot-base-application-02" options="-parameters" />
+      <module name="springboot-base-druid-04" options="-parameters" />
+      <module name="springboot-base-mybatis-05" options="-parameters" />
+      <module name="springboot-base-quick-01" options="-parameters" />
+      <module name="springboot-base-springmvc-03" options="-parameters" />
+      <module name="springboot-base-springmvc-03 (1)" options="-parameters" />
+      <module name="springboot-base-springmvc-03 (2)" options="-parameters" />
+      <module name="springboot-part" options="" />
+      <module name="springboot-starter-druid-04" options="-parameters" />
       <module name="springmvc-base-input-02" options="" />
       <module name="springmvc-base-quick-01" options="" />
       <module name="springmvc-base-restful-03" options="" />

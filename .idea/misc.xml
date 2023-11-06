@@ -10,6 +10,17 @@
         <option value="$PROJECT_DIR$/ssm-springmvc-part/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-integration-part/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-integration-part/ssm-integration-todolist-02/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/springboot-base-quick-01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/springboot-base-application-02/springboot-base-application-02/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/springboot-base-application-02/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/springboot-base-springmvc-03/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/springboot-base-druid-04/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-part/springboot-base-mybatis-05/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-part/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-part/mabatis-plus-crud-mapper-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-other-04/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-part/mybatis-plus-mybatisx-05/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
