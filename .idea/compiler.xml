@@ -32,6 +32,7 @@
         <module name="springmvc-high-other-05" />
         <module name="ssm-integration-01" />
         <module name="spring-ioc-annotation-03" />
+        <module name="springboot-headline-part" />
         <module name="spring-ioc-annotation-04" />
         <module name="mybatis-other-extend-07" />
         <module name="springboot-base-application-02" />
@@ -77,6 +78,7 @@
       <module name="springboot-base-springmvc-03" options="-parameters" />
       <module name="springboot-base-springmvc-03 (1)" options="-parameters" />
       <module name="springboot-base-springmvc-03 (2)" options="-parameters" />
+      <module name="springboot-headline-part" options="-parameters" />
       <module name="springboot-part" options="" />
       <module name="springboot-starter-druid-04" options="-parameters" />
       <module name="springmvc-base-input-02" options="" />
